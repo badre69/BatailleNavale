@@ -15,10 +15,7 @@ public class ProjetNaval {
         // TODO code application logic here
     
     new Menu();
-        
-    // mettre dans classe partie/    
-    Plateau p1 = new Plateau(32,16);
-    Plateau p2 = new Plateau(32,16);
+       
     
     
     }
