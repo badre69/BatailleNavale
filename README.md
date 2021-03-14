@@ -6,8 +6,11 @@ package projetnaval;
  *
  * @author rebecca
  */
+
 public class Aide {
+    
     public void Aide(){
+        
         System.out.println ( "Règles : Au début du jeu, chaque joueur place à sa guise tous les bateaux sur sa grille de façon stratégique.\n "
                                      +"Le but étant de compliquer au maximum la tache de son adversaire, c’est-à-dire détruire tous vos navires. \n"
                                      +"Bien entendu, le joueur ne voit pas la grille de son adversaire.\n" 
