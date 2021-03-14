@@ -25,6 +25,8 @@ public class Menu {
   
 	switch (in.nextInt()) 
 	{
+	
+	
 	    case 1:
 	    System.out.println ( "Vous avez choisi l'option 1" );
 	    System.out.println ("Bonne partie.");
