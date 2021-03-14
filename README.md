@@ -8,19 +8,25 @@ import projetnaval.*;
  *
  * @author rebecca
  */
+
 public class Menu {
 
+    
     public void montrer_menu() 
     {
+	
 	System.out.println("1) Jouer une partie\n2) Charger une partie\n3) Aide\n4) Quitter");
+	
 	System.out.print("Choix: ");
     }
     
    
  
+    
     public Menu() 
     {
-        Scanner in = new Scanner(System.in);
+        
+	Scanner in = new Scanner(System.in);
         montrer_menu();
   
 	switch (in.nextInt()) 
