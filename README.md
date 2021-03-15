@@ -8,12 +8,10 @@ import java.util.*;
  * @author rebecca
  */
 public class Plateau {
+
     //attributs
     private int ligne;
     private int colonne;
-    private int nbligne;
-    private int nbcolonne;
-    private int etat;
     private String [][] plateau;
     
     
@@ -131,14 +129,6 @@ public class Plateau {
     public String getCase(){
         return plateau[ligne][colonne];
     }
-   
-    public void estOccupé(){}
 
-   
-     
-   // public int getEtat(){
-      //return;  
-    //}
-    public void setEtat(int l, int c){
-        
+  
    }
