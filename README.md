@@ -8,7 +8,7 @@ import java.util.*;
  * @author rebecca
  */
 
-public class Case {
+    public class Case {
 
     //attributs
     private int etat;
@@ -22,15 +22,16 @@ public class Case {
    
      
    
-   // public int getEtat(){
-      //return;  
+   
+    // public int getEtat(){
+    //return;  
     //}
     public void setEtat(int l, int c){
     
         
-   }
-   public void getPosition(){
+    }
+     public void getPosition(){
    
-   }
+    }
     
-}
+    }
