@@ -8,7 +8,7 @@ import java.util.*;
  * @author rebecca
  */
 
-    public class Case {
+public class Case {
 
     //attributs
     private int etat;
