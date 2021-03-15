@@ -11,28 +11,21 @@ import projetnaval.*;
 
 public class Menu {
 
-    
-    public void montrer_menu() 
-    {
-	
-	System.out.println("1) Jouer une partie\n2) Charger une partie\n3) Aide\n4) Quitter");
-	
-	System.out.print("Choix: ");
-    }
-    
    
- 
-    
     public Menu() 
+    
     {
+        Scanner in = new Scanner(System.in);
+        int choix=0;
+        do{
+        System.out.println("1) Jouer une partie\n2) Charger une partie\n3) Aide\n4) Quitter");
+	System.out.print("Choix: ");
+        choix = in.nextInt();
+ 
         
-	Scanner in = new Scanner(System.in);
-        montrer_menu();
-  
-	switch (in.nextInt()) 
+	switch (choix) 
+	
 	{
-	
-	
 	    case 1:
 	    System.out.println ( "Vous avez choisi l'option 1" );
 	    System.out.println ("Bonne partie.");
@@ -60,14 +53,10 @@ public class Menu {
 	    break;
 
 	    default:
-	    System.err.println ( "choix non reconnu" );
-	    break;
+	    System.out.println ( "choix non reconnu" );
+            System.out.println("Veuillez respecter le menu!");
 	}
+	
+        }while(choix > 4);
     }
-    
-    
-    
-        
-        
-    
     }
